@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+*.csv
+!data/sample_reviews.csv
+.env
+node_modules/
+build/
+dist/
+
+# Conda
+*.conda
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Virtual environment
+venv/
+ENV/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Models (opcional, si son muy grandes)
+*.pkl
+*.model
+*.h5
